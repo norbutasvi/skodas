@@ -116,6 +116,10 @@ function Index({ product, header, footer, locale, array}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+      <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNGVP2B"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      </noscript>
       <Header header={header} locale={locale} asPath={router.asPath} type="product" otherLocales={array} />
         <div className="product">
             <div className="texture">
