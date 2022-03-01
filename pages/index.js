@@ -74,6 +74,8 @@ export default function Home({ page, header, footer, locale}) {
       </Head>
 
       <main style={{ fontSize: locale == 'ru' ? '80% !important' : '100%'}}>
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNGVP2B"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <Header header={header} locale={locale} asPath={router.asPath} type={`home`}/>
         <Swiper
             // spaceBetween={50}
